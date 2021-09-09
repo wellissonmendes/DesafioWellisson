@@ -1,0 +1,902 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-08T22:00:23.225Z",
+        "line": 9,
+        "name": "Deve preencher a aba Send Quote",
+        "description": "",
+        "id": "preencher-aba-send-quote;deve-preencher-a-aba-send-quote",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7873658800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Acessei site sampleApp",
+            "match": {
+              "location": "EnterVehicleDataSteps.acessei_site_sampleApp()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 128500700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencher o campo Make informando \"Audi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Audi\"",
+                  "offset": 34
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Make_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 108010200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencher o campo Model informando \"Scooter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Scooter\"",
+                  "offset": 35
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Model_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 104872500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencher o campo Cylinder Capacity informando \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 47
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Cylinder_Capacity_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 84577400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencher o campo Engine Performance informando \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 48
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Engine_Performance_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 124173600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencher o campo Date of Manufacture informando \"09/01/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09/01/2021\"",
+                  "offset": 49
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Date_of_Manufacture_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 110375000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "preencher o campo Number of Seats informando \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 45
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Number_of_Seats_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 55553700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "preencher o campo Right Hand Drive informando \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No\"",
+                  "offset": 46
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Right_Hand_Drive_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 108383500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "preencher o campo Number of Seats Motor Cycle informando \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 57
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Number_of_Seats_Motor_Cycle_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 113286300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "preencher o campo Fuel Type informando \"Diesel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Diesel\"",
+                  "offset": 39
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Fuel_Type_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 82814500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "preencher o campo Payload informando \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 37
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Payload_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 99801400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "preencher o campo Total Weight informando \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 42
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Total_Weight_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 109689600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "preencher o campo List Price informando \"2000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2000\"",
+                  "offset": 40
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_List_Price_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 95100000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "preencher o campo License Plate Number informando \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 50
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_License_Plate_Number_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 94719500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "preencher o campo Annual Mileage informando \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 44
+                }
+              ],
+              "location": "EnterVehicleDataSteps.preencher_o_campo_Annual_Mileage_informando(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 104692400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "acionar botão next",
+            "match": {
+              "location": "EnterVehicleDataSteps.acionar_botão_next()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 6834800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "serei redirecionado para aba \"Enter Insurant Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter Insurant Data\"",
+                  "offset": 29
+                }
+              ],
+              "location": "EnterVehicleDataSteps.serei_redirecionado_para_aba(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 624211700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "preencher o campo First Name \"Joao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Joao\"",
+                  "offset": 29
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_First_Name(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 91757300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "preencher o campo Last Name \"Silva\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Silva\"",
+                  "offset": 28
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_Last_Name(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 133504900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "preencher o campo Date of Birth \"03/03/1994\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"03/03/1994\"",
+                  "offset": 32
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_Date_of_Birth(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 47162800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "preencher o campo Gender \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 25
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_Gender(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 79452000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "preencher o campo Street Address \"Endereco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Endereco\"",
+                  "offset": 33
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_Street_Address(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 107315700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "preencher o campo Country \"Austria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Austria\"",
+                  "offset": 26
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_Country(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 100983700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "preencher o campo Zip Code \"70222000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"70222000\"",
+                  "offset": 27
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_Zip_Code(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 68055700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "preencher o campo City \"Joao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Joao\"",
+                  "offset": 23
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_City(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 84815200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "preencher o campo Occupation \"Farmer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Farmer\"",
+                  "offset": 29
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_Occupation(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 69477300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "preencher o campo Hobbies \"Speeding\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Speeding\"",
+                  "offset": 26
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_Hobbies(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 113294300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "preencher o campo Website \"http://wwww.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://wwww.google.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_Website(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 345003400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "preencher o campo Picture \"C:\\Users\\Wellisson\\Desktop\\teste.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\Wellisson\\Desktop\\teste.txt\"",
+                  "offset": 26
+                }
+              ],
+              "location": "EnterInsurantDataSteps.preencher_o_campo_Picture(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 79987100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "acionar botão nextProductData",
+            "match": {
+              "location": "EnterInsurantDataSteps.acionar_botão_nextProductData()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 6574000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "serei redirecionado para aba \"Enter Product Data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter Product Data\"",
+                  "offset": 29
+                }
+              ],
+              "location": "EnterVehicleDataSteps.serei_redirecionado_para_aba(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 659781300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "preencher o campo Start Date \"11/18/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11/18/2021\"",
+                  "offset": 29
+                }
+              ],
+              "location": "EnterProductDataSteps.preencher_o_campo_Start_Date(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 139308800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "preencher o campo Insurance Sum \"3000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3000000\"",
+                  "offset": 32
+                }
+              ],
+              "location": "EnterProductDataSteps.preencher_o_campo_Insurance_Sum(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 113865800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "preencher o campo Merit Rating \"Super Bonus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Super Bonus\"",
+                  "offset": 31
+                }
+              ],
+              "location": "EnterProductDataSteps.preencher_o_campo_Merit_Rating(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 112875200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "preencher o campo Damage Insurance \"No Coverage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No Coverage\"",
+                  "offset": 35
+                }
+              ],
+              "location": "EnterProductDataSteps.preencher_o_campo_Damage_Insurance(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 56113000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "preencher o campo Optional Products \"Euro Protection\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Euro Protection\"",
+                  "offset": 36
+                }
+              ],
+              "location": "EnterProductDataSteps.preencher_o_campo_Optional_Products(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 112785700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "preencher o campo Courtesy Car \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No\"",
+                  "offset": 31
+                }
+              ],
+              "location": "EnterProductDataSteps.preencher_o_campo_Courtesy_Car(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 68563100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "acionar botão nextselectpriceoption",
+            "match": {
+              "location": "EnterProductDataSteps.acionar_botão_nextselectpriceoption()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 6394500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "serei redirecionado para aba \"Select Price Option\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Price Option\"",
+                  "offset": 29
+                }
+              ],
+              "location": "EnterVehicleDataSteps.serei_redirecionado_para_aba(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 73460200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "seleciono a modalidade do preço \"Ultimate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ultimate\"",
+                  "offset": 32
+                }
+              ],
+              "location": "SelectPriceOptionSteps.seleciono_a_modalidade_do_preço(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 503316100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "seleciono o botão nextsendquote",
+            "match": {
+              "location": "SelectPriceOptionSteps.seleciono_o_botão_nextsendquote()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5626400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "serei redirecionado para aba \"Send Quote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Send Quote\"",
+                  "offset": 29
+                }
+              ],
+              "location": "EnterVehicleDataSteps.serei_redirecionado_para_aba(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 171311600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "preencher o campo e-mail \"wellisson.mendes@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wellisson.mendes@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "SendQuoteSteps.preencher_o_campo_e_mail(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 113362500,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "preencher o campo phone \"61999565250\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"61999565250\"",
+                  "offset": 24
+                }
+              ],
+              "location": "SendQuoteSteps.preencher_o_campo_phone(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 87821000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "preencher o campo username \"joaozinho\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"joaozinho\"",
+                  "offset": 27
+                }
+              ],
+              "location": "SendQuoteSteps.preencher_o_campo_username(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 104450800,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "preencher o campo password \"Teste@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste@123\"",
+                  "offset": 27
+                }
+              ],
+              "location": "SendQuoteSteps.preencher_o_campo_password(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 97905400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "preencher o campo confirm password \"Teste@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste@123\"",
+                  "offset": 35
+                }
+              ],
+              "location": "SendQuoteSteps.preencher_o_campo_confirm_password(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 200302500,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "preencher o campo comentários \"Apenas a realização de um teste de preenchimento\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apenas a realização de um teste de preenchimento\"",
+                  "offset": 30
+                }
+              ],
+              "location": "SendQuoteSteps.preencher_o_campo_comentários(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 72217500,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "aciono o botão sendemail",
+            "match": {
+              "location": "SendQuoteSteps.aciono_o_botão_sendemail()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 9231712600,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "será a apresentado a mensagem \"Sending e-mail success!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sending e-mail success!\"",
+                  "offset": 30
+                }
+              ],
+              "location": "SendQuoteSteps.será_a_apresentado_a_mensagem(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SendQuote"
+          }
+        ]
+      }
+    ],
+    "name": "Preencher aba Send Quote",
+    "description": "  Como usuário\n  Eu devo preencher todos os campos do formulário\n  Para pressionar o botão Send",
+    "id": "preencher-aba-send-quote",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/SendQuote.feature",
+    "tags": [
+      {
+        "name": "@SendQuote",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
